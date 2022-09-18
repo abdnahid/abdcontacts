@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url("https://fonts.googleapis.com/css?family=Roboto");
 
 /* Global Styles */
 :root {
@@ -16,10 +16,9 @@
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 1rem;
   line-height: 1.6;
-  background-color: #333;
   color: #000;
 }
 
@@ -146,16 +145,16 @@ img {
   margin: 3rem;
 }
 .my {
-  margin: 0.5rem 0;
+  margin: 0.5rem 0 !important;
 }
 .my-1 {
-  margin: 1rem 0;
+  margin: 1rem 0 !important;
 }
 .my-2 {
-  margin: 2rem 0;
+  margin: 2rem 0 !important;
 }
 .my-3 {
-  margin: 3rem 0;
+  margin: 3rem 0 !important;
 }
 .mx {
   margin: 0 0.5rem;
@@ -167,7 +166,7 @@ img {
   margin: 0 2rem;
 }
 .mx-3 {
-  margin: 0 3rem;
+  margin: 0 3rem !important;
 }
 
 /* Grid */
@@ -317,10 +316,10 @@ input {
   color: #888;
 }
 
-input[type='text'],
-input[type='email'],
-input[type='password'],
-input[type='date'],
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"],
 select,
 textarea {
   display: block;
@@ -330,7 +329,7 @@ textarea {
   border: 1px solid #ccc;
 }
 
-input[type='submit'],
+input[type="submit"],
 button {
   font: inherit;
 }
