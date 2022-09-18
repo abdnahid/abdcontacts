@@ -1,4 +1,0 @@
-{
-  "MONGO_URI": "mongodb+srv://abdlm10:M0ng0leAmiUser@cluster-mongonative.nfeyu.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
-  "jwtSecret": "thisismysecretjwt"
-}
